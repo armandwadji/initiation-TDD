@@ -20,6 +20,26 @@ describe("Palindrom", () => {
 
 describe("Moderator", () => {
   it("contains forbidden words", () => {
-    expect(app.containsForbidenWords("Vous êtes des truffes")).toEqual(true);
+    expect(app.containsForbidenWords("Vous êtes des salop")).toEqual(true);
   });
+
+  it("remove all forbiden words", () => {
+    expect(
+      app.removeForbidenWords("Vous êtes des truffes de porc salo")
+    ).toEqual("Vous êtes des xxx de porc xxx");
+  });
+
+  it("return thesame sentence is no foridden word detected", () => {
+    expect(app.removeForbidenWords("Vous êtes des anges")).toEqual(
+      "Vous êtes des anges"
+    );
+  });
+
+  it("detects cases hacks", () => {
+    expect(app.removeForbidenWords("vous êtes tous des tRufFes")).toEqual(
+      "vous êtes tous des xxx"
+    );
+  });
+
+  it.todo("todo fonction"); //pour mettre un teste en attente le tems d'exécuter les tests précédents
 });
