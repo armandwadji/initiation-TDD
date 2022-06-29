@@ -25,8 +25,9 @@ npm install
 ```
 
 ## Importer en module Ecmascript 6
-Installer babel dans les dev dependancies
+Installer babel  et types/jest dans les dev dependancies
 ```
+npm i -D "@types/jest"
 npm i -D babel-jest @babel/core @babel/preset-env
 npm i -D babel-plugin-transform-es2015-modules-commonjs
 ```
