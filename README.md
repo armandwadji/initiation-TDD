@@ -1,6 +1,6 @@
 <div>
   <h1 align="center">
-    <a href="https://github.com/armandwadji/React-World.git">TDD (Test Driven Developpement) 🧪
+    <a href="https://github.com/armandwadji/React-World.git">TDD (Test Driven Developement) 🧪
     </a>  
   </h1>
 </div> 
