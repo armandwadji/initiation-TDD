@@ -53,6 +53,12 @@ Enfin dans le terminal tapez la commande suivante :
 npm run test
 ```
 
+<p align="right">Back to top : 
+  <a href="#top">
+    ☝
+  </a>
+</p>
+
 <h1 align="center">Bon Code 🖥 💻 📱</h1>
 
 <!-- prettier-ignore-start -->
